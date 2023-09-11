@@ -1,0 +1,50 @@
+html {
+    font-size: 18px; /* px means "pixels": the base font size is now 10 pixels high */
+    font-family: 'Roboto Mono', monospace; /* from Google Fonts */
+    background-color: #00539f;
+}
+
+body {
+    width: 85%;
+    margin: 0 auto;
+    background-color: orange;
+    padding: 0 20px 20px 20px;
+    border: 3px solid black;
+}
+  
+
+h1 {
+    /* To eliminate the gap at the top of the body, 
+    we overwrite the browser's default styling 
+    with the setting margin: 0; */
+    margin: 0;
+    padding: 20px 0;
+
+    /* Styling of main page title */
+    color: maroon;
+    text-shadow: 3px 3px 1px black;
+
+    /* To visual the "box" */
+    /* border: 3px dashed black; */
+
+    font-size: 60px;
+    text-align: center;
+}
+
+.centerImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.caption{
+    text-align:center;
+}
+
+p,li {
+    font-size: 16px;
+    line-height: 2;
+    /* letter-spacing: 1px; */
+
+}
